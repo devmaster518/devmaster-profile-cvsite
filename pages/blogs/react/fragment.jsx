@@ -142,7 +142,7 @@ const Example1 = ({ myDark }) => {
            //Extraneous div element   
            <div>  
              <h2> Hello World! </h2>   
-             <p> Welcome to the Shiv's Blog. </p>   
+             <p> Welcome to the DevMaster's Blog. </p>   
            </div>   
         );   
        }   
@@ -190,7 +190,7 @@ const Example3 = ({ myDark }) => {
        return (   
          <React.Fragment>  
               <h2> Hello World! </h2>   
-              <p> Welcome to the Shiv's Blog. </p>   
+              <p> Welcome to the DevMaster's Blog. </p>   
            </React.Fragment>  
        );   
       }   
@@ -217,7 +217,7 @@ const Example4 = ({ myDark }) => {
       return (   
         <>    
           <h2> Hello World! </h2>   
-          <p> Welcome to the Shiv's Blog </p>   
+          <p> Welcome to the DevMaster's Blog </p>   
         </>   
       );   
     }   

@@ -79,7 +79,9 @@ const FirstPost = () => {
           <div className="layoutBox2">
             <div className={close ? "hidden" : ""}>
               <Link
-                href={"https://shiv-s-blog.vercel.app/posts/react/fragment"}
+                href={
+                  "https://devmaster518-blog.vercel.app/posts/react/fragment"
+                }
               >
                 <div
                   className={"border border-solid border-black h-[150px]"}

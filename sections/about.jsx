@@ -71,11 +71,11 @@ const About = () => {
           >
             {/* Full Name */}
             <p className="text-3xl text-center md:text-left font-semibold text-[#c72c6c] dark:text-[#07d0e5]">
-              Shivraj Gurjar
+              DevMaster
             </p>
             {/* Profil Name */}
             <p className="text-center md:text-left text-red-600 mt-1">
-              Ful stack web developer
+              Senior Node.js / Python / Go / Rust developer
             </p>
             {/* Location */}
             <div className="flex flex-wrap justify-center md:justify-normal gap-5">

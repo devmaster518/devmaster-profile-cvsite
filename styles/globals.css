@@ -89,3 +89,7 @@ div {
 .social-show > div {
   transform: scale(0.9);
 }
+
+.txt-align-l {
+  text-align: left !important;
+}

@@ -67,13 +67,13 @@ export default Closure;
 
 const Example1 = ({ myDark }) => {
   const codeString = ` function outerFun() {
-   var name = "Shivraj";
+   var name = "DevMaster518";
    function innerFun() {
      console.log(name);
    }
    innerFun();
  }
- outerFun(); // Output will be "Shivraj"`;
+ outerFun(); // Output will be "DevMaster518"`;
 
   return (
     <>

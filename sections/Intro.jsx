@@ -44,7 +44,7 @@ const Intro = () => {
   return (
     <Fragment>
       <Head>
-        <title>Shiv&apos;s Portfolio</title>
+        <title>Dennis&apos;s Portfolio</title>
       </Head>
       <section id="home">
         <div
@@ -56,15 +56,19 @@ const Intro = () => {
             ref={introRef}
           >
             <p className="py-2 text-2xl md:text-4xl font-semibold font-sans">
-              Hi There !
+              Hi, There!
             </p>
             {/* Profile Name */}
-            <p className="text-2xl md:text-4xl py-2 font-semibold font-sans">
-              I&apos;m a full stack
+            <p className="text-2xl md:text-4xl py-2 font-semibold font-sans txt-align-l">
+              I&apos;m a
               <span className="text-[#c72c6c] dark:text-[#07d0e5]">
                 {" "}
-                developer <span className="text-white">|</span>
+                Node.js <span className="text-black dark:text-white">| </span>
+                Python <span className="text-black dark:text-white">| </span>
+                Go <span className="text-black dark:text-white">| </span>
+                Rust{" "}
               </span>
+              developer
             </p>
             <div className="mt-5 md:mt-10 flex gap-3">
               {/* Hire Me Button */}
@@ -77,7 +81,7 @@ const Intro = () => {
               {/* Download CV Button */}
               <Link
                 className="text-xl font-semibold rounded border border-red-500 hover:text-white hover:bg-red-500 px-2 py-1"
-                href="https://drive.google.com/file/d/1uk-tv12y8PK-WrE4oX2xRtmSy4PUVSsE/view"
+                href="https://drive.google.com/file/d/1Gl3CSze59TEppEftz2T5_cecBRNQzm97/view?usp=sharing"
                 target="_blank"
               >
                 Download CV
@@ -91,7 +95,10 @@ const Intro = () => {
               "translate-x-[500px] transition-all opacity-0 duration-700 w-[180px] h-[300px] md:w-[240px] md:h-[400px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
             }
             ref={profileRef}
-            style={{ backgroundImage: "url(/images/male.png)" }}
+            style={{
+              backgroundImage: "url(/images/male.png)",
+              backgroundPosition: "center",
+            }}
           />
         </div>
       </section>
