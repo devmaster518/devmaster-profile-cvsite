@@ -75,11 +75,7 @@ const Home = () => {
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
         {/* <!-- Favicon --> */}
-        <link
-          href="https://devmaster518-portfolio.vercel.app/favicon.ico"
-          rel="icon"
-          type="image/x-icon"
-        />
+        <link href="/favicon.ico" rel="icon" type="image/x-icon" />
       </Head>
       <div>
         <div>

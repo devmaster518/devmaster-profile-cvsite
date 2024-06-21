@@ -62,7 +62,7 @@ const About = () => {
             }
             height={350}
             ref={profile2Ref}
-            src="http://res.cloudinary.com/dqfrtazgi/image/upload/v1696181689/wt7sys9ubcvc41v6clq8.jpg"
+            src="/images/devmaster.png"
             width={350}
           />
           <div
